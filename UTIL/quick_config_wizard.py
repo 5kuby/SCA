@@ -1,10 +1,11 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-QuickConfig Wizard — Final Clean English Version
+QuickConfig Wizard — Final Advanced Version
 Does NOT open any SNS session directly.
 Uses ONLY memory_helper to ensure no active sessions exist.
 Prompts for SNS admin password at startup.
+Injects post-restore network configuration commands before reboot.
 """
 
 from __future__ import annotations
@@ -121,13 +122,38 @@ def _parse_user_input(raw: str) -> Tuple[str, Optional[ipaddress.IPv4Interface]]
 
 
 # -------------------------
-# SNSCLI restore
+# Compute LAN network address
 # -------------------------
-def _run_restore_via_snscli(password: str, installpath: str, safe_name: str):
+def _compute_network_address(ip_str: str, mask: int) -> str:
+    iface = ipaddress.ip_interface(f"{ip_str}/{mask}")
+    return f"{iface.network.network_address}/{mask}"
+
+
+# -------------------------
+# SNSCLI restore with injected commands
+# -------------------------
+def _run_restore_via_snscli(password: str, installpath: str, safe_name: str,
+                            LAN_address: str, LAN_mask: int,
+                            WAN_address: str, WAN_mask: int,
+                            FW_GTW: str, LAN_net_address: str):
+
     file_path = os.path.abspath(os.path.join(installpath, "DefaultConfig", f"{safe_name}.na"))
 
     commands = f"""MODIFY ON
 CONFIG RESTORE list=all < {file_path}
+
+CONFIG NETWORK INTERFACE ADDRESS REMOVE address=dhcp ifname=ethernet0
+CONFIG NETWORK INTERFACE ADDRESS ADD ifname=ethernet0 address={WAN_address} addressComment= mask={WAN_mask} refAddress={WAN_address}
+CONFIG NETWORK INTERFACE ADDRESS REMOVE mask=24 refAddress=192.168.1.254 address=192.168.1.254 ifname=ethernet1
+CONFIG NETWORK INTERFACE ADDRESS ADD ifname=ethernet1 address={LAN_address} addressComment= mask={LAN_mask} refAddress={LAN_address}
+CONFIG NETWORK ACTIVATE
+
+config object network new name=LAN comment="Rete IT locale " ip={LAN_net_address} mask={LAN_mask} update=1
+config object host new name=LAN_GTW comment="" ip="{LAN_address}" resolve=static mac="" update=1
+config object host new name=GTW comment="" ip="{FW_GTW}" resolve=static mac="" update=1
+config object host new name=SNS_PUBLIC comment="" ip="{WAN_address}" resolve=static mac="" update=1
+config object activate
+
 SYSTEM REBOOT
 """
 
@@ -269,12 +295,25 @@ def QuickConfig(arg: str) -> None:
         break
 
     # ---------------------------------------------------------
-    # 3) RESTORE VIA SNSCLI (NO SNS CONNECTION OPENED BY WIZARD)
+    # 3) Compute LAN network address
+    # ---------------------------------------------------------
+    if LAN_address != "DHCP":
+        LAN_net_address = _compute_network_address(LAN_address, LAN_mask)
+    else:
+        LAN_net_address = None
+
+    # ---------------------------------------------------------
+    # 4) RESTORE VIA SNSCLI (NO SNS CONNECTION OPENED BY WIZARD)
     # ---------------------------------------------------------
     _log("QuickConfig: starting restore via snscli (no SNS session opened by wizard).")
 
     try:
-        _run_restore_via_snscli(sns_password, installpath, safe_name)
+        _run_restore_via_snscli(
+            sns_password, installpath, safe_name,
+            LAN_address, LAN_mask,
+            WAN_address, WAN_mask,
+            FW_GTW, LAN_net_address
+        )
         _log(f"QuickConfig: restore completed successfully for '{safe_name}'.")
     except Exception as e:
         _log(f"QuickConfig: restore failed: {e}.")
