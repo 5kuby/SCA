@@ -1,0 +1,5 @@
+ConfigFiles/
+log/
+Workspaces/
+Secrets/*
+.venv
