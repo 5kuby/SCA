@@ -1,0 +1,7 @@
+cryptography>=3.4
+colorama
+requests
+stormshield.sns.sslclient
+argon2-cffi
+# stormshield SDK if available in pip; otherwise install vendor package manually
+# stormshield-sns-client

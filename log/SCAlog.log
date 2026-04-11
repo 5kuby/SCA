@@ -1,0 +1,550 @@
+2026-03-30T13:08:35Z - [INFO] No configuration file (SCAconfig.ini) in the ConfigFile folder. A new one will be created.
+2026-03-30T13:08:44Z - [INFO] No configuration file (SCAconfig.ini) in the ConfigFile folder. A new one will be created.
+2026-03-30T15:10:37+02:00 - [INFO] No configuration file (SCAconfig.ini) in the ConfigFile folder. A new one will be created.
+2026-03-31T09:14:38+02:00 - Error opening SSLClient to 172.16.21.129:443 - HTTPSConnectionPool(host='172.16.21.129', port=443): Max retries exceeded with url: /auth/admin.html (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1000)')))
+2026-03-31T09:15:14+02:00 - Error opening SSLClient to :443 - Invalid URL 'https://:443/auth/admin.html': No host supplied
+2026-03-31T09:22:45+02:00 - Error opening SSLClient to 172.16.21.129:443 - HTTPSConnectionPool(host='172.16.21.129', port=443): Max retries exceeded with url: /auth/admin.html (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1000)')))
+2026-03-31T09:24:54+02:00 - Error opening SSLClient to 172.16.21.129:443 - HTTPSConnectionPool(host='172.16.21.129', port=443): Max retries exceeded with url: /auth/admin.html (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1000)')))
+2026-03-31T09:29:24+02:00 - Opened session 1 to 172.16.21.129:443
+2026-03-31T10:53:29+02:00 - Opened session 1 to 172.16.21.129:443
+2026-03-31T10:57:52+02:00 - Error opening SSLClient to 172.16.21.129:443 - Authentication failed
+2026-03-31T10:59:43+02:00 - Opened session 1 to 172.16.21.129:443
+2026-03-31T11:03:53+02:00 - Opened session 1 to 172.16.21.129:443
+2026-03-31T13:07:03+02:00 - Error opening SSLClient to 172.16.21.129:443 - Authentication failed
+2026-03-31T13:15:56+02:00 - Error opening SSLClient to 172.16.21.129:443 - Authentication failed
+2026-03-31T13:16:01+02:00 - Active sessions: {}
+2026-03-31T13:16:56+02:00 - Opened session 1 to 172.16.21.129:443
+2026-03-31T13:17:01+02:00 - Active sessions: {1: {'ip': '172.16.21.129', 'port': 443, 'user': 'admin', 'created': 1774955816.0784204, 'duration': '00:00:05'}}
+2026-03-31T13:35:29+02:00 - Error opening SSLClient to 172.16.21.219:443 - HTTPSConnectionPool(host='172.16.21.219', port=443): Max retries exceeded with url: /auth/admin.html (Caused by NewConnectionError("HTTPSConnection(host='172.16.21.219', port=443): Failed to establish a new connection: [Errno 113] No route to host"))
+2026-03-31T13:36:46+02:00 - Opened session 1 to 172.16.21.129:443 (session_number=NdEkseBe)
+2026-03-31T13:40:04+02:00 - Opened session 1 to 172.16.21.129:443 (session_number=T10zOcYW)
+2026-03-31T13:43:02+02:00 - Opened session 1 to 172.16.21.129:443 (session_number=KLD2jl2o)
+2026-03-31T13:46:24+02:00 - Opened session 1 to 172.16.21.129:443 (session_number=gEHz4Ob8)
+2026-03-31T13:54:23+02:00 - Opened session 1 to 172.16.21.129:443 (session_number=vDuTKUsZ)
+2026-03-31T14:04:33+02:00 - Opened session 1 to 172.16.21.129:443 (session_number=PGldh5Zq)
+2026-03-31T14:09:01+02:00 - Opened session 1 to 172.16.21.129:443 (session_number=SqOynYP7)
+2026-03-31T14:15:05+02:00 - Opened session 1 to 172.16.21.129:443 (session_number=5RycOmTz)
+2026-03-31T15:17:34+02:00 - Opened session 1 to 172.16.21.129:443 (session_number=c26HkEH0)
+2026-03-31T15:21:12+02:00 - Opened session 1 to 172.16.21.129:443 (session_number=xym1t0uG)
+2026-03-31T15:26:11+02:00 - Opened session 1 to 172.16.21.129:443 (session_number=7TRdaeWQ)
+2026-03-31T17:10:55+02:00 - Opened session 1 to 172.16.21.129:443 (session_number=ANUbSMGT)
+2026-03-31T17:44:38+02:00 - Opened session 1 to 172.16.21.129:443 (session_number=yrr4sDpy)
+2026-04-07T13:14:12+02:00 - Opened session 1 to 172.16.21.129:443 (session_number=oesk9adt)
+2026-04-07T15:42:13+02:00 - [SNSCLI] Unable to import SSLClient: No module named 'stormshield'
+2026-04-07T15:42:48+02:00 - [SNSCLI] Unable to import SNSCLI: module 'stormshield.sns.cli' has no attribute 'SNSCLI'
+2026-04-07T16:00:52+02:00 - Opened session 1 to 172.16.21.129:443 (session_number=yoxHIFgO)
+2026-04-07T16:13:42+02:00 - Opened session 1 to 172.16.21.129:443 (session_number=O4uAy9QI)
+2026-04-07T16:26:56+02:00 - Error opening SSLClient to 172.16.21.129:443 - Authentication failed
+2026-04-07T16:27:50+02:00 - Opened session 1 to 172.16.21.129:443 (session_number=mXN3n4fm)
+2026-04-07T18:42:04+02:00 - Opened session 2 to 172.16.21.129:443 (session_number=Y0IxNkRC)
+2026-04-08T22:36:58+02:00 - Error opening SSLClient to 172.16.21.129:443 - Authentication failed
+2026-04-08T22:37:24+02:00 - Opened session 1 to 172.16.21.129:443 (session_number=m3Odjf6Y)
+2026-04-09T12:25:22+02:00 - [INFO] No configuration file (SCAconfig.ini) in the ConfigFile folder. A new one will be created.
+2026-04-09T13:04:39+02:00 - Opened session 1 to 172.16.21.129:443 (session_number=xsuP01GM)
+2026-04-09T13:17:22+02:00 - Opened SNS session 1 to 172.16.21.129:443
+2026-04-09T13:18:50+02:00 - Opened session 1 to 172.16.21.129:443 (session_number=cBnJaDfX)
+2026-04-09T13:21:00+02:00 - Opened session 1 to 172.16.21.129:443 (session_number=zGjJSlS6)
+2026-04-09T13:25:36+02:00 - Opened session 1 to 172.16.21.129:443 (session_number=Pr1CQACk)
+2026-04-09T13:34:20+02:00 - Opened session 1 to 172.16.21.129:443 (session_number=kp58Pe9Y)
+2026-04-09T13:35:07+02:00 - Opened session 1 to 172.16.21.129:443 (session_number=EYJVp3DW)
+2026-04-09T16:46:06+02:00 - Opened session 1 to 172.16.21.129:443 (session_number=5jB5TiyZ)
+2026-04-09T17:23:45+02:00 - Opened session 1 to 172.16.21.129:443 (session_number=N1DGkKFD)
+2026-04-09T17:27:13+02:00 - Opened session 1 to 172.16.21.129:443 (session_number=GJgr8TyL)
+2026-04-09T17:27:52+02:00 - Opened session 1 to 172.16.21.129:443 (session_number=kqbU3auJ)
+2026-04-10T09:10:44+02:00 - Opened session 1 to 172.16.21.129:443 (session_number=QqG5G5qi)
+2026-04-10T09:31:11+02:00 - Opened session 1 to 172.16.21.129:443 (session_number=VlBAFn3d)
+2026-04-10T09:42:48+02:00 - Opened session 1 to 172.16.21.129:443 (session_number=OfSstLqP)
+2026-04-10T09:49:30+02:00 - Opened session 1 to 172.16.21.129:443 (session_number=CTMXVt78)
+2026-04-10T09:59:07+02:00 - Opened session 1 to 172.16.21.129:443 (session_number=m6UgogGR)
+2026-04-10T10:01:50+02:00 - Opened session 1 to 172.16.21.129:443 (session_number=Xm5l3er5)
+2026-04-10T10:14:30+02:00 - Opened session 1 to 172.16.21.129:443 (session_number=nclQANGT)
+2026-04-10T16:45:11+02:00 - [INFO] No configuration file (SCAconfig.ini) in the ConfigFile folder. A new one will be created.
+2026-04-10T16:45:48+02:00 - Opened session 1 to 172.16.21.129:443 (session_number=3vAe3fir)
+2026-04-10T16:46:00+02:00 - backup: sending single redirect command 'CONFIG BACKUP list=all > /tmp/backup_3vAe3fir_f77e6ad8abbf4f8cad6ab6780392bf7c.na' to session 3vAe3fir
+2026-04-10T16:46:00+02:00 - SNS_COMMAND -> target=3vAe3fir @ 172.16.21.129 command=CONFIG BACKUP list=all > /tmp/backup_3vAe3fir_f77e6ad8abbf4f8cad6ab6780392bf7c.na
+2026-04-10T16:46:01+02:00 - backup: device response status=ok message/result=100 code=00a00100 msg="Ok"
+2026-04-10T17:08:09+02:00 - Opened session 1 to 172.16.21.129:443 (session_number=tYrzXeE7)
+2026-04-10T17:08:22+02:00 - backup: sending single redirect command 'CONFIG BACKUP list=all > /home/striker/Documents/SCA_0_2_0/Workspaces/TESTWS2/Backup/backup_tYrzXeE7_53a5d2b1f55f437d9edc4894921fcd3f.na' to session tYrzXeE7
+2026-04-10T17:08:22+02:00 - SNS_COMMAND -> target=tYrzXeE7 @ 172.16.21.129 command=CONFIG BACKUP list=all > /home/striker/Documents/SCA_0_2_0/Workspaces/TESTWS2/Backup/backup_tYrzXeE7_53a5d2b1f55f437d9edc4894921fcd3f.na
+2026-04-10T17:08:23+02:00 - backup: device response status=ok message/result=100 code=00a00100 msg="Ok"
+2026-04-10T17:09:53+02:00 - Opened session 1 to 172.16.21.129:443 (session_number=5rzdZ9ef)
+2026-04-10T17:18:29+02:00 - Opened session 1 to 172.16.21.129:443 (session_number=S2HSuQ8t)
+2026-04-10T17:18:41+02:00 - SNS_COMMAND -> target=S2HSuQ8t @ 172.16.21.129 command=SYSTEM PROPERTY
+2026-04-10T17:18:41+02:00 - backup: sending 'CONFIG BACKUP list=all > /home/striker/Documents/SCA_0_2_0/Workspaces/TESTWS2/Backup/VMSNSX05J9832A9_20260410T171841.na' to session S2HSuQ8t
+2026-04-10T17:18:41+02:00 - SNS_COMMAND -> target=S2HSuQ8t @ 172.16.21.129 command=CONFIG BACKUP list=all > /home/striker/Documents/SCA_0_2_0/Workspaces/TESTWS2/Backup/VMSNSX05J9832A9_20260410T171841.na
+2026-04-10T19:44:21+02:00 - Opened session 1 to 172.16.21.129:443 (session_number=AlVlWr6p)
+2026-04-10T19:44:37+02:00 - SNS_COMMAND -> target=AlVlWr6p @ 172.16.21.129 command=SYSTEM PROPERTY
+2026-04-10T19:44:37+02:00 - backup: sending 'CONFIG BACKUP list=all > /home/striker/Documents/SCA_0_2_0/Workspaces/WS_prova/Backup/VMSNSX05J9832A9_20260410T194437.na' to session AlVlWr6p
+2026-04-10T19:44:37+02:00 - SNS_COMMAND -> target=AlVlWr6p @ 172.16.21.129 command=CONFIG BACKUP list=all > /home/striker/Documents/SCA_0_2_0/Workspaces/WS_prova/Backup/VMSNSX05J9832A9_20260410T194437.na
+2026-04-11T07:06:15+02:00 - [INFO] No configuration file (SCAconfig.ini) in the ConfigFile folder. A new one will be created.
+2026-04-11T07:15:16+02:00 - Opened session 1 to 10.0.0.254:443 (session_number=xtKSUn2v)
+2026-04-11T07:39:59+02:00 - QuickConfig: trovato INI in '/home/striker/Documents/SCA_0_3_0/ConfigFiles/SCAconfig.ini'. Leggo 'installpath'.
+2026-04-11T07:39:59+02:00 - QuickConfig: using installpath from INI: '/home/striker/Documents/SCA_0_3_0'.
+2026-04-11T07:39:59+02:00 - QuickConfig: file .na risolto per il restore: '/home/striker/Documents/SCA_0_3_0/DefaultConfig/Base.na'.
+2026-04-11T07:39:59+02:00 - QuickConfig: nessuna sessione selezionata. Abort.
+2026-04-11T07:44:08+02:00 - QuickConfig: trovato INI in '/home/striker/Documents/SCA_0_3_0/ConfigFiles/SCAconfig.ini'. Leggo 'installpath'.
+2026-04-11T07:44:08+02:00 - QuickConfig: using installpath from INI: '/home/striker/Documents/SCA_0_3_0'.
+2026-04-11T07:44:08+02:00 - QuickConfig: file .na risolto per il restore: '/home/striker/Documents/SCA_0_3_0/DefaultConfig/Base.na'.
+2026-04-11T07:44:08+02:00 - QuickConfig: nessuna sessione attiva trovata.
+2026-04-11T07:50:04+02:00 - QuickConfig: trovato INI in '/home/striker/Documents/SCA_0_3_0/ConfigFiles/SCAconfig.ini'. Leggo 'installpath'.
+2026-04-11T07:50:04+02:00 - QuickConfig: using installpath from INI: '/home/striker/Documents/SCA_0_3_0'.
+2026-04-11T07:50:04+02:00 - QuickConfig: file .na risolto per il restore: '/home/striker/Documents/SCA_0_3_0/DefaultConfig/Base.na'.
+2026-04-11T07:50:04+02:00 - QuickConfig: nessuna sessione attiva trovata.
+2026-04-11T07:54:20+02:00 - QuickConfig: SNS_connection import failed; will abort if required.
+2026-04-11T07:54:20+02:00 - QuickConfig: trovato INI in '/home/striker/Documents/SCA_0_3_0/ConfigFiles/SCAconfig.ini'. Leggo 'installpath'.
+2026-04-11T07:54:20+02:00 - QuickConfig: using installpath from INI: '/home/striker/Documents/SCA_0_3_0'.
+2026-04-11T07:54:20+02:00 - QuickConfig: file .na risolto per il restore: '/home/striker/Documents/SCA_0_3_0/DefaultConfig/Base.na'.
+2026-04-11T07:54:20+02:00 - QuickConfig: SNS_connection non disponibile; non posso aprire la sessione. Abort.
+2026-04-11T07:54:20+02:00 - QuickConfig: diagnostica TCP: connessione a 10.0.0.254:443 OK.
+2026-04-11T07:54:31+02:00 - QuickConfig: trovato INI in '/home/striker/Documents/SCA_0_3_0/ConfigFiles/SCAconfig.ini'. Leggo 'installpath'.
+2026-04-11T07:54:31+02:00 - QuickConfig: using installpath from INI: '/home/striker/Documents/SCA_0_3_0'.
+2026-04-11T07:54:31+02:00 - QuickConfig: file .na risolto per il restore: '/home/striker/Documents/SCA_0_3_0/DefaultConfig/Base.na'.
+2026-04-11T07:54:31+02:00 - QuickConfig: SNS_connection non disponibile; non posso aprire la sessione. Abort.
+2026-04-11T07:54:31+02:00 - QuickConfig: diagnostica TCP: connessione a 10.0.0.254:443 OK.
+2026-04-11T07:57:27+02:00 - QuickConfig: unable to import SNS_connection (all attempts failed).
+2026-04-11T07:57:27+02:00 - QuickConfig: imported sns_command via relative import.
+2026-04-11T07:57:27+02:00 - QuickConfig: trovato INI in '/home/striker/Documents/SCA_0_3_0/ConfigFiles/SCAconfig.ini'. Leggo 'installpath'.
+2026-04-11T07:57:27+02:00 - QuickConfig: using installpath from INI: '/home/striker/Documents/SCA_0_3_0'.
+2026-04-11T07:57:27+02:00 - QuickConfig: file .na risolto per il restore: '/home/striker/Documents/SCA_0_3_0/DefaultConfig/Base.na'.
+2026-04-11T07:57:27+02:00 - QuickConfig: SNS_connection non disponibile; non posso aprire la sessione. Abort.
+2026-04-11T07:57:27+02:00 - QuickConfig: diagnostica TCP: connessione a 10.0.0.254:443 OK.
+2026-04-11T08:04:00+02:00 - QuickConfig: resolved installpath: /home/striker/Documents/SCA_0_3_0
+2026-04-11T08:04:00+02:00 - QuickConfig: unable to import SNS_connection (all attempts failed).
+2026-04-11T08:04:00+02:00 - QuickConfig: imported sns_command_helper via UTIL.sns_command_helper.
+2026-04-11T08:04:00+02:00 - QuickConfig: file .na risolto per il restore: '/home/striker/Documents/SCA_0_3_0/DefaultConfig/Base.na'.
+2026-04-11T08:04:00+02:00 - QuickConfig: SNS_connection non disponibile; non posso aprire la sessione. Abort.
+2026-04-11T08:04:00+02:00 - QuickConfig: diagnostica TCP: connessione a 10.0.0.254:443 OK.
+2026-04-11T08:08:13+02:00 - QuickConfig: resolved installpath: /home/striker/Documents/SCA_0_3_0
+2026-04-11T08:08:13+02:00 - QuickConfig: file .na risolto per il restore: '/home/striker/Documents/SCA_0_3_0/DefaultConfig/Base.na'.
+2026-04-11T08:08:13+02:00 - QuickConfig: SNS_connection non disponibile; non posso aprire la sessione. Abort.
+2026-04-11T08:08:13+02:00 - QuickConfig: diagnostica TCP: connessione a 10.0.0.254:443 OK.
+2026-04-11T08:19:53+02:00 - QuickConfig: resolved installpath: /home/striker/Documents/SCA_0_3_0
+2026-04-11T08:19:53+02:00 - QuickConfig: file .na risolto per il restore: '/home/striker/Documents/SCA_0_3_0/DefaultConfig/Base.na'.
+2026-04-11T08:19:53+02:00 - QuickConfig: SNS_connection non disponibile; non posso aprire la sessione. Abort.
+2026-04-11T08:19:53+02:00 - QuickConfig: diagnostica TCP: connessione a 10.0.0.254:443 OK.
+2026-04-11T08:21:24+02:00 - QuickConfig: resolved installpath: /home/striker/Documents/SCA_0_3_0
+2026-04-11T08:21:24+02:00 - QuickConfig: file .na risolto per il restore: '/home/striker/Documents/SCA_0_3_0/DefaultConfig/Base.na'.
+2026-04-11T08:21:24+02:00 - DEBUG: SNS_connection is None; module object: None
+2026-04-11T08:21:24+02:00 - QuickConfig: SNS_connection non disponibile; non posso aprire la sessione. Abort.
+2026-04-11T08:21:24+02:00 - QuickConfig: diagnostica TCP: connessione a 10.0.0.254:443 OK.
+2026-04-11T08:33:07+02:00 - QuickConfig: resolved installpath: /home/striker/Documents/SCA_0_3_0
+2026-04-11T08:33:07+02:00 - QuickConfig: file .na risolto per il restore: '/home/striker/Documents/SCA_0_3_0/DefaultConfig/Base.na'.
+2026-04-11T08:33:07+02:00 - DEBUG: SNS_connection is None; module object: None
+2026-04-11T08:33:07+02:00 - QuickConfig: SNS_connection module not available in sns_manual_connection.
+2026-04-11T08:33:07+02:00 - QuickConfig: SNS_connection non disponibile; non posso aprire la sessione. Abort.
+2026-04-11T08:33:07+02:00 - QuickConfig: diagnostica TCP: connessione a 10.0.0.254:443 OK.
+2026-04-11T08:45:14+02:00 - QuickConfig: resolved installpath: /home/striker/Documents/SCA_0_3_0
+2026-04-11T08:45:14+02:00 - QuickConfig: file .na risolto per il restore: '/home/striker/Documents/SCA_0_3_0/DefaultConfig/Base.na'.
+2026-04-11T08:45:14+02:00 - Opened session 1 to 10.0.0.254:443 (session_number=vRzVQvPk)
+2026-04-11T08:45:14+02:00 - QuickConfig: SNS_connection open returned code 0 (sessione aperta).
+2026-04-11T08:45:14+02:00 - QuickConfig: session enumeration attempt 1: found 1 unique sessions.
+2026-04-11T08:45:14+02:00 - QuickConfig: sessione selezionata: vRzVQvPk (impostata SNS_SELECTED_SESSION).
+2026-04-11T08:45:14+02:00 - QuickConfig: avvio raccolta informazioni di rete (digita 'quit' per uscire).
+2026-04-11T08:45:38+02:00 - QuickConfig: input non valido: Formato input non valido: '24' does not appear to be an IPv4 or IPv6 interface. Riavvio wizard.
+2026-04-11T08:46:03+02:00 - QuickConfig: valori inseriti -> LAN: 192.168.1.1/32, WAN: 192.168.3.1/32, FW_GTW: 192.168.3.254/32.
+2026-04-11T08:46:03+02:00 - QuickConfig: SNS_SELECTED_SESSION rimossa dall'ambiente.
+2026-04-11T08:46:39+02:00 - QuickConfig: file .na risolto per il restore: '/home/striker/Documents/SCA_0_3_0/DefaultConfig/Base.na'.
+2026-04-11T08:46:39+02:00 - Opened session 2 to 10.0.0.254:443 (session_number=Woy8WPS1)
+2026-04-11T08:46:39+02:00 - QuickConfig: SNS_connection open returned code 0 (sessione aperta).
+2026-04-11T08:46:39+02:00 - QuickConfig: session enumeration attempt 1: found 2 unique sessions.
+2026-04-11T08:46:39+02:00 - QuickConfig: session enumeration attempt 2: found 2 unique sessions.
+2026-04-11T08:46:39+02:00 - QuickConfig: session enumeration attempt 3: found 2 unique sessions.
+2026-04-11T08:46:40+02:00 - QuickConfig: session enumeration attempt 4: found 2 unique sessions.
+2026-04-11T08:46:40+02:00 - QuickConfig: session enumeration attempt 5: found 2 unique sessions.
+2026-04-11T08:46:40+02:00 - QuickConfig: session enumeration attempt 6: found 2 unique sessions.
+2026-04-11T08:46:40+02:00 - QuickConfig: 2 sessioni attive trovate dopo retry; abort per requisito (procedere solo con una).
+2026-04-11T08:46:40+02:00 - QuickConfig: condizione sessione non soddisfatta dopo open; non chiudo la sessione aperta. Abort.
+2026-04-11T08:46:56+02:00 - QuickConfig: resolved installpath: /home/striker/Documents/SCA_0_3_0
+2026-04-11T08:46:56+02:00 - QuickConfig: file .na risolto per il restore: '/home/striker/Documents/SCA_0_3_0/DefaultConfig/Base.na'.
+2026-04-11T08:46:56+02:00 - Opened session 1 to 10.0.0.254:443 (session_number=EOD1qfBb)
+2026-04-11T08:46:56+02:00 - QuickConfig: SNS_connection open returned code 0 (sessione aperta).
+2026-04-11T08:46:56+02:00 - QuickConfig: session enumeration attempt 1: found 1 unique sessions.
+2026-04-11T08:46:56+02:00 - QuickConfig: sessione selezionata: EOD1qfBb (impostata SNS_SELECTED_SESSION).
+2026-04-11T08:46:56+02:00 - QuickConfig: avvio raccolta informazioni di rete (digita 'quit' per uscire).
+2026-04-11T08:47:00+02:00 - QuickConfig: wizard abortito dall'utente (quit). Nessuna azione eseguita.
+2026-04-11T08:47:00+02:00 - QuickConfig: SNS_SELECTED_SESSION rimossa dall'ambiente.
+2026-04-11T08:51:09+02:00 - QuickConfig: file .na risolto per il restore: '/home/striker/Documents/SCA_0_3_0/DefaultConfig/Base.na'.
+2026-04-11T08:51:09+02:00 - Opened session 1 to 10.0.0.254:443 (session_number=pITMnhtM)
+2026-04-11T08:51:09+02:00 - QuickConfig: SNS_connection open returned code 0 (sessione aperta).
+2026-04-11T08:51:09+02:00 - QuickConfig: session enumeration attempt 1: found 1 unique sessions.
+2026-04-11T08:51:09+02:00 - QuickConfig: sessione selezionata: pITMnhtM (impostata SNS_SELECTED_SESSION).
+2026-04-11T08:51:09+02:00 - QuickConfig: avvio raccolta informazioni di rete (digita 'quit' per uscire).
+2026-04-11T08:51:34+02:00 - QuickConfig: valori inseriti -> LAN: 192.168.1.1/24, WAN: 10.0.2.1/24, FW_GTW: 10.0.2.254/32.
+2026-04-11T08:51:34+02:00 - QuickConfig: errore - WAN e Firewall gateway non sono nella stessa subnet. Riavvio wizard.
+2026-04-11T08:52:06+02:00 - QuickConfig: valori inseriti -> LAN: 192.168.1.1/24, WAN: 192.168.2.1/24, FW_GTW: 192.168.2.254/24.
+2026-04-11T08:52:06+02:00 - QuickConfig: WAN e Firewall gateway sono nella stessa subnet.
+2026-04-11T08:52:06+02:00 - QuickConfig: validazione indirizzi completata con successo.
+2026-04-11T08:52:06+02:00 - QuickConfig: invio comando di restore: CONFIG RESTORE list=all < "/home/striker/Documents/SCA_0_3_0/DefaultConfig/Base.na"
+2026-04-11T08:52:06+02:00 - SNS_COMMAND -> target=pITMnhtM @ 10.0.0.254 command=CONFIG RESTORE list=all < "/home/striker/Documents/SCA_0_3_0/DefaultConfig/Base.na"
+2026-04-11T08:52:06+02:00 - QuickConfig: restore inviato con successo. Risposta remota:
+2026-04-11T08:52:06+02:00 - 205 code=00100a00 msg="Not enough privilege"
+2026-04-11T08:52:06+02:00 - QuickConfig: restore completato con successo per 'Base'.
+2026-04-11T08:52:06+02:00 - QuickConfig: SNS_SELECTED_SESSION rimossa dall'ambiente.
+2026-04-11T08:57:10+02:00 - Keepalive: session 1 lost: Server disconnected
+2026-04-11T08:59:36+02:00 - QuickConfig: file .na risolto per il restore: '/home/striker/Documents/SCA_0_3_0/DefaultConfig/Base.na'.
+2026-04-11T08:59:37+02:00 - Opened session 1 to 10.0.0.254:443 (session_number=YnEGBw7b)
+2026-04-11T08:59:37+02:00 - QuickConfig: SNS_connection open returned code 0 (sessione aperta).
+2026-04-11T08:59:37+02:00 - QuickConfig: session enumeration attempt 1: found 1 unique sessions.
+2026-04-11T08:59:37+02:00 - QuickConfig: sessione selezionata: YnEGBw7b (impostata SNS_SELECTED_SESSION).
+2026-04-11T08:59:37+02:00 - QuickConfig: avvio raccolta informazioni di rete (digita 'quit' per uscire).
+2026-04-11T09:00:00+02:00 - QuickConfig: valori inseriti -> LAN: 192.168.1.1/24, WAN: 192.168.2.1/24, FW_GTW: 192.168.2.254/24.
+2026-04-11T09:00:00+02:00 - QuickConfig: WAN e Firewall gateway sono nella stessa subnet.
+2026-04-11T09:00:00+02:00 - QuickConfig: validazione indirizzi completata con successo.
+2026-04-11T09:00:00+02:00 - QuickConfig: invio comando di restore: CONFIG RESTORE list=all < "/home/striker/Documents/SCA_0_3_0/DefaultConfig/Base.na"
+2026-04-11T09:00:00+02:00 - SNS_COMMAND -> target=YnEGBw7b @ 10.0.0.254 command=CONFIG RESTORE list=all < "/home/striker/Documents/SCA_0_3_0/DefaultConfig/Base.na"
+2026-04-11T09:00:00+02:00 - QuickConfig: restore inviato con successo. Risposta remota:
+2026-04-11T09:00:00+02:00 - 200 code=00100800 msg="Error in format"
+2026-04-11T09:00:00+02:00 - QuickConfig: restore completato con successo per 'Base'.
+2026-04-11T09:00:00+02:00 - QuickConfig: SNS_SELECTED_SESSION rimossa dall'ambiente.
+2026-04-11T09:06:37+02:00 - Keepalive: session 1 lost: Server disconnected
+2026-04-11T10:48:28+02:00 - QuickConfig: file .na risolto per il restore: '/home/striker/Documents/SCA_0_3_0/DefaultConfig/Base.na'.
+2026-04-11T10:48:39+02:00 - Error opening SSLClient to 10.0.0.254:443 - Authentication failed
+2026-04-11T10:48:39+02:00 - QuickConfig: SNS_connection open failed with rc=1
+2026-04-11T10:48:39+02:00 - QuickConfig: apertura sessione fallita (rc=1). Eseguo diagnostica TCP e abortisco.
+2026-04-11T10:48:39+02:00 - QuickConfig: diagnostica TCP: connessione a 10.0.0.254:443 OK.
+2026-04-11T10:49:12+02:00 - QuickConfig: file .na risolto per il restore: '/home/striker/Documents/SCA_0_3_0/DefaultConfig/Base.na'.
+2026-04-11T10:49:21+02:00 - QuickConfig: DEFAULT_SNS_PASSWORD aggiornata dall'utente.
+2026-04-11T10:49:21+02:00 - Opened session 1 to 10.0.0.254:443 (session_number=XEbp5vcv)
+2026-04-11T10:49:21+02:00 - QuickConfig: SNS_connection open returned code 0 (sessione aperta).
+2026-04-11T10:49:21+02:00 - QuickConfig: session enumeration attempt 1: found 1 unique sessions.
+2026-04-11T10:49:21+02:00 - QuickConfig: sessione selezionata: XEbp5vcv (impostata SNS_SELECTED_SESSION).
+2026-04-11T10:49:21+02:00 - QuickConfig: avvio raccolta informazioni di rete (digita 'quit' per uscire).
+2026-04-11T10:49:47+02:00 - QuickConfig: valori inseriti -> LAN: 192.168.1.1/24, WAN: 192.168.2.1/24, FW_GTW: 192.168.2.254/24.
+2026-04-11T10:49:47+02:00 - QuickConfig: WAN e Firewall gateway sono nella stessa subnet.
+2026-04-11T10:49:47+02:00 - QuickConfig: validazione indirizzi completata con successo.
+2026-04-11T10:49:47+02:00 - QuickConfig: invio comando di restore: CONFIG RESTORE list=all < "/home/striker/Documents/SCA_0_3_0/DefaultConfig/Base.na"
+2026-04-11T10:49:47+02:00 - SNS_COMMAND -> target=XEbp5vcv @ 10.0.0.254 command=CONFIG RESTORE list=all < "/home/striker/Documents/SCA_0_3_0/DefaultConfig/Base.na"
+2026-04-11T10:49:47+02:00 - QuickConfig: restore inviato con successo. Risposta remota:
+2026-04-11T10:49:47+02:00 - 205 code=00100a00 msg="Not enough privilege"
+2026-04-11T10:49:47+02:00 - QuickConfig: restore completato con successo per 'Base'.
+2026-04-11T10:49:47+02:00 - QuickConfig: SNS_SELECTED_SESSION rimossa dall'ambiente.
+2026-04-11T10:56:38+02:00 - QuickConfig: file .na risolto per il restore: '/home/striker/Documents/SCA_0_3_0/DefaultConfig/Base.na'.
+2026-04-11T10:56:53+02:00 - QuickConfig: DEFAULT_SNS_PASSWORD aggiornata dall'utente.
+2026-04-11T10:56:53+02:00 - Opened session 1 to 10.0.0.254:443 (session_number=jGgCH1M0)
+2026-04-11T10:56:53+02:00 - QuickConfig: SNS_connection open returned code 0 (sessione aperta).
+2026-04-11T10:56:53+02:00 - QuickConfig: session enumeration attempt 1: found 1 unique sessions.
+2026-04-11T10:56:53+02:00 - QuickConfig: sessione selezionata: jGgCH1M0 (impostata SNS_SELECTED_SESSION).
+2026-04-11T10:56:53+02:00 - QuickConfig: avvio raccolta informazioni di rete (digita 'quit' per uscire).
+2026-04-11T10:57:16+02:00 - QuickConfig: valori inseriti -> LAN: 192.168.1.1/24, WAN: 192.168.2.1/24, FW_GTW: 192.168.2.254/24.
+2026-04-11T10:57:16+02:00 - QuickConfig: WAN e Firewall gateway sono nella stessa subnet.
+2026-04-11T10:57:16+02:00 - QuickConfig: validazione indirizzi completata con successo.
+2026-04-11T10:57:16+02:00 - QuickConfig: invio comando per i privilegi di scrittura: MODIFY ON
+2026-04-11T10:57:16+02:00 - SNS_COMMAND -> target=jGgCH1M0 @ 10.0.0.254 command=MODIFY ON
+2026-04-11T10:57:16+02:00 - QuickConfig: invio comando di restore: CONFIG RESTORE list=all < /home/striker/Documents/SCA_0_3_0/DefaultConfig/Base.na
+2026-04-11T10:57:16+02:00 - SNS_COMMAND -> target=jGgCH1M0 @ 10.0.0.254 command=CONFIG RESTORE list=all < /home/striker/Documents/SCA_0_3_0/DefaultConfig/Base.na
+2026-04-11T10:57:16+02:00 - QuickConfig: restore inviato con successo. Risposta remota:
+2026-04-11T10:57:16+02:00 - 205 code=00100a00 msg="Not enough privilege"
+2026-04-11T10:57:16+02:00 - QuickConfig: invio comando per REBOOT: SYSTEM REBOOT
+2026-04-11T10:57:16+02:00 - SNS_COMMAND -> target=jGgCH1M0 @ 10.0.0.254 command=SYSTEM REBOOT
+2026-04-11T10:57:16+02:00 - QuickConfig: restore completato con successo per 'Base'.
+2026-04-11T10:57:16+02:00 - QuickConfig: SNS_SELECTED_SESSION rimossa dall'ambiente.
+2026-04-11T10:58:37+02:00 - QuickConfig: file .na risolto per il restore: '/home/striker/Documents/SCA_0_3_0/DefaultConfig/Base.na'.
+2026-04-11T10:58:48+02:00 - QuickConfig: DEFAULT_SNS_PASSWORD aggiornata dall'utente.
+2026-04-11T10:58:48+02:00 - Opened session 2 to 10.0.0.254:443 (session_number=NnVBxsb7)
+2026-04-11T10:58:48+02:00 - QuickConfig: SNS_connection open returned code 0 (sessione aperta).
+2026-04-11T10:58:48+02:00 - QuickConfig: session enumeration attempt 1: found 2 unique sessions.
+2026-04-11T10:58:48+02:00 - QuickConfig: session enumeration attempt 2: found 2 unique sessions.
+2026-04-11T10:58:49+02:00 - QuickConfig: session enumeration attempt 3: found 2 unique sessions.
+2026-04-11T10:58:49+02:00 - QuickConfig: session enumeration attempt 4: found 2 unique sessions.
+2026-04-11T10:58:49+02:00 - QuickConfig: session enumeration attempt 5: found 2 unique sessions.
+2026-04-11T10:58:50+02:00 - QuickConfig: session enumeration attempt 6: found 2 unique sessions.
+2026-04-11T10:58:50+02:00 - QuickConfig: 2 sessioni attive trovate dopo retry; abort per requisito (procedere solo con una).
+2026-04-11T10:58:50+02:00 - QuickConfig: condizione sessione non soddisfatta dopo open; non chiudo la sessione aperta. Abort.
+2026-04-11T10:59:07+02:00 - QuickConfig: file .na risolto per il restore: '/home/striker/Documents/SCA_0_3_0/DefaultConfig/Base.na'.
+2026-04-11T10:59:15+02:00 - QuickConfig: DEFAULT_SNS_PASSWORD aggiornata dall'utente.
+2026-04-11T10:59:15+02:00 - Opened session 1 to 10.0.0.254:443 (session_number=le3pWJ8S)
+2026-04-11T10:59:15+02:00 - QuickConfig: SNS_connection open returned code 0 (sessione aperta).
+2026-04-11T10:59:15+02:00 - QuickConfig: session enumeration attempt 1: found 1 unique sessions.
+2026-04-11T10:59:15+02:00 - QuickConfig: sessione selezionata: le3pWJ8S (impostata SNS_SELECTED_SESSION).
+2026-04-11T10:59:15+02:00 - QuickConfig: avvio raccolta informazioni di rete (digita 'quit' per uscire).
+2026-04-11T10:59:37+02:00 - QuickConfig: valori inseriti -> LAN: 192.168.1.1/24, WAN: 192.168.2.2/24, FW_GTW: 192.168.2.254/24.
+2026-04-11T10:59:37+02:00 - QuickConfig: WAN e Firewall gateway sono nella stessa subnet.
+2026-04-11T10:59:37+02:00 - QuickConfig: validazione indirizzi completata con successo.
+2026-04-11T10:59:37+02:00 - QuickConfig: invio comando per i privilegi di scrittura: MODIFY ON
+2026-04-11T10:59:37+02:00 - SNS_COMMAND -> target=le3pWJ8S @ 10.0.0.254 command=MODIFY ON
+2026-04-11T10:59:37+02:00 - QuickConfig: invio comando di restore: CONFIG RESTORE list=all < /home/striker/Documents/SCA_0_3_0/DefaultConfig/Base.na
+2026-04-11T10:59:37+02:00 - SNS_COMMAND -> target=le3pWJ8S @ 10.0.0.254 command=CONFIG RESTORE list=all < /home/striker/Documents/SCA_0_3_0/DefaultConfig/Base.na
+2026-04-11T10:59:37+02:00 - QuickConfig: restore inviato con successo. Risposta remota:
+2026-04-11T10:59:37+02:00 - 205 code=00100a00 msg="Not enough privilege"
+2026-04-11T10:59:37+02:00 - QuickConfig: invio comando per REBOOT: SYSTEM REBOOT
+2026-04-11T10:59:37+02:00 - SNS_COMMAND -> target=le3pWJ8S @ 10.0.0.254 command=SYSTEM REBOOT
+2026-04-11T10:59:37+02:00 - QuickConfig: restore completato con successo per 'Base'.
+2026-04-11T10:59:37+02:00 - QuickConfig: SNS_SELECTED_SESSION rimossa dall'ambiente.
+2026-04-11T11:01:21+02:00 - QuickConfig: file .na risolto per il restore: '/home/striker/Documents/SCA_0_3_0/DefaultConfig/Base.na'.
+2026-04-11T11:01:29+02:00 - Opened session 2 to 10.0.0.254:443 (session_number=AcRYvJs1)
+2026-04-11T11:01:29+02:00 - QuickConfig: SNS_connection open returned code 0 (sessione aperta).
+2026-04-11T11:01:29+02:00 - QuickConfig: session enumeration attempt 1: found 2 unique sessions.
+2026-04-11T11:01:29+02:00 - QuickConfig: session enumeration attempt 2: found 2 unique sessions.
+2026-04-11T11:01:30+02:00 - QuickConfig: session enumeration attempt 3: found 2 unique sessions.
+2026-04-11T11:01:30+02:00 - QuickConfig: session enumeration attempt 4: found 2 unique sessions.
+2026-04-11T11:01:30+02:00 - QuickConfig: session enumeration attempt 5: found 2 unique sessions.
+2026-04-11T11:01:30+02:00 - QuickConfig: session enumeration attempt 6: found 2 unique sessions.
+2026-04-11T11:01:30+02:00 - QuickConfig: 2 sessioni attive trovate dopo retry; abort per requisito (procedere solo con una).
+2026-04-11T11:01:30+02:00 - QuickConfig: condizione sessione non soddisfatta dopo open; non chiudo la sessione aperta. Abort.
+2026-04-11T11:01:48+02:00 - QuickConfig: file .na risolto per il restore: '/home/striker/Documents/SCA_0_3_0/DefaultConfig/Base.na'.
+2026-04-11T11:01:56+02:00 - QuickConfig: DEFAULT_SNS_PASSWORD aggiornata dall'utente.
+2026-04-11T11:01:56+02:00 - Opened session 1 to 10.0.0.254:443 (session_number=uJ0U0dw8)
+2026-04-11T11:01:56+02:00 - QuickConfig: SNS_connection open returned code 0 (sessione aperta).
+2026-04-11T11:01:56+02:00 - QuickConfig: session enumeration attempt 1: found 1 unique sessions.
+2026-04-11T11:01:56+02:00 - QuickConfig: sessione selezionata: uJ0U0dw8 (impostata SNS_SELECTED_SESSION).
+2026-04-11T11:01:56+02:00 - QuickConfig: avvio raccolta informazioni di rete (digita 'quit' per uscire).
+2026-04-11T11:02:14+02:00 - QuickConfig: valori inseriti -> LAN: 192.168.1.1/24, WAN: 192.168.2.1/24, FW_GTW: 192.168.2.254/24.
+2026-04-11T11:02:14+02:00 - QuickConfig: WAN e Firewall gateway sono nella stessa subnet.
+2026-04-11T11:02:14+02:00 - QuickConfig: validazione indirizzi completata con successo.
+2026-04-11T11:02:14+02:00 - QuickConfig: invio comando per i privilegi di scrittura: MODIFY ON
+2026-04-11T11:02:14+02:00 - SNS_COMMAND -> target=uJ0U0dw8 @ 10.0.0.254 command=MODIFY ON
+2026-04-11T11:02:14+02:00 - QuickConfig: invio comando di restore: CONFIG RESTORE list=all < /home/striker/Documents/SCA_0_3_0/DefaultConfig/Base.na
+2026-04-11T11:02:14+02:00 - SNS_COMMAND -> target=uJ0U0dw8 @ 10.0.0.254 command=CONFIG RESTORE list=all < /home/striker/Documents/SCA_0_3_0/DefaultConfig/Base.na
+2026-04-11T11:02:14+02:00 - QuickConfig: restore inviato con successo. Risposta remota:
+2026-04-11T11:02:14+02:00 - 205 code=00100a00 msg="Not enough privilege"
+2026-04-11T11:02:14+02:00 - QuickConfig: invio comando per REBOOT: SYSTEM REBOOT
+2026-04-11T11:02:14+02:00 - SNS_COMMAND -> target=uJ0U0dw8 @ 10.0.0.254 command=SYSTEM REBOOT
+2026-04-11T11:02:14+02:00 - QuickConfig: restore completato con successo per 'Base'.
+2026-04-11T11:02:14+02:00 - QuickConfig: SNS_SELECTED_SESSION rimossa dall'ambiente.
+2026-04-11T11:09:57+02:00 - QuickConfig: file .na risolto per il restore: '/home/striker/Documents/SCA_0_3_0/DefaultConfig/Base.na'.
+2026-04-11T11:10:05+02:00 - QuickConfig: DEFAULT_SNS_PASSWORD aggiornata dall'utente.
+2026-04-11T11:10:05+02:00 - Opened session 1 to 10.0.0.254:443 (session_number=ClJToS7b)
+2026-04-11T11:10:05+02:00 - QuickConfig: SNS_connection open returned code 0 (sessione aperta).
+2026-04-11T11:10:05+02:00 - QuickConfig: session enumeration attempt 1: found 1 unique sessions.
+2026-04-11T11:10:05+02:00 - QuickConfig: sessione selezionata: ClJToS7b (impostata SNS_SELECTED_SESSION).
+2026-04-11T11:10:05+02:00 - QuickConfig: avvio raccolta informazioni di rete (digita 'quit' per uscire).
+2026-04-11T11:10:26+02:00 - QuickConfig: valori inseriti -> LAN: 192.168.1.1/24, WAN: 192.168.2.1/24, FW_GTW: 192.168.2.2/24.
+2026-04-11T11:10:26+02:00 - QuickConfig: WAN e Firewall gateway sono nella stessa subnet.
+2026-04-11T11:10:26+02:00 - QuickConfig: validazione indirizzi completata con successo.
+2026-04-11T11:10:26+02:00 - QuickConfig: invio comando di restore: MODIFY ON
+CONFIG RESTORE list=all < /home/striker/Documents/SCA_0_3_0/DefaultConfig/Base.na
+SYSTEM REBOOT
+2026-04-11T11:10:26+02:00 - SNS_COMMAND -> target=ClJToS7b @ 10.0.0.254 command=MODIFY ON
+CONFIG RESTORE list=all < /home/striker/Documents/SCA_0_3_0/DefaultConfig/Base.na
+SYSTEM REBOOT
+2026-04-11T11:10:26+02:00 - QuickConfig: restore fallito: Command execution failed: Request error
+2026-04-11T11:10:26+02:00 - QuickConfig: restore terminato con errore: Restore failed: Command execution failed: Request error.
+2026-04-11T11:10:26+02:00 - QuickConfig: SNS_SELECTED_SESSION rimossa dall'ambiente.
+2026-04-11T11:26:40+02:00 - QuickConfig: file .na risolto per il restore: '/home/striker/Documents/SCA_0_3_0/DefaultConfig/Base.na'.
+2026-04-11T11:26:52+02:00 - QuickConfig: DEFAULT_SNS_PASSWORD aggiornata dall'utente.
+2026-04-11T11:26:53+02:00 - Opened session 1 to 10.0.0.254:443 (session_number=mTdx1KVv)
+2026-04-11T11:26:53+02:00 - QuickConfig: SNS_connection open returned code 0 (sessione aperta).
+2026-04-11T11:26:53+02:00 - QuickConfig: session enumeration attempt 1: found 1 unique sessions.
+2026-04-11T11:26:53+02:00 - QuickConfig: sessione selezionata: mTdx1KVv (impostata SNS_SELECTED_SESSION).
+2026-04-11T11:26:53+02:00 - QuickConfig: avvio raccolta informazioni di rete (digita 'quit' per uscire).
+2026-04-11T11:27:13+02:00 - QuickConfig: valori inseriti -> LAN: 192.168.1.1/24, WAN: 192.168.2.1/24, FW_GTW: 192.168.2.2/24.
+2026-04-11T11:27:13+02:00 - QuickConfig: WAN e Firewall gateway sono nella stessa subnet.
+2026-04-11T11:27:13+02:00 - QuickConfig: validazione indirizzi completata con successo.
+2026-04-11T11:27:13+02:00 - QuickConfig: invio comando: MODIFY ON
+2026-04-11T11:27:13+02:00 - SNS_COMMAND -> target=mTdx1KVv @ 10.0.0.254 command=MODIFY ON
+2026-04-11T11:27:13+02:00 - QuickConfig: invio comando: CONFIG RESTORE list=all < /home/striker/Documents/SCA_0_3_0/DefaultConfig/Base.na
+2026-04-11T11:27:13+02:00 - SNS_COMMAND -> target=mTdx1KVv @ 10.0.0.254 command=CONFIG RESTORE list=all < /home/striker/Documents/SCA_0_3_0/DefaultConfig/Base.na
+2026-04-11T11:27:13+02:00 - QuickConfig: invio comando: SYSTEM REBOOT
+2026-04-11T11:27:13+02:00 - SNS_COMMAND -> target=mTdx1KVv @ 10.0.0.254 command=SYSTEM REBOOT
+2026-04-11T11:27:13+02:00 - QuickConfig: MODIFY ON, CONFIG RESTORE e SYSTEM REBOOT inviati con successo nella stessa sessione.
+2026-04-11T11:27:13+02:00 - QuickConfig: restore completato con successo per 'Base'.
+2026-04-11T11:27:13+02:00 - QuickConfig: SNS_SELECTED_SESSION rimossa dall'ambiente.
+2026-04-11T11:43:34+02:00 - QuickConfig: file .na risolto per il restore: '/home/striker/Documents/SCA_0_3_0/DefaultConfig/Base.na'.
+2026-04-11T11:43:47+02:00 - QuickConfig: DEFAULT_SNS_PASSWORD aggiornata dall'utente.
+2026-04-11T11:43:51+02:00 - Error opening SSLClient to 10.0.0.254:443 - HTTPSConnectionPool(host='10.0.0.254', port=443): Max retries exceeded with url: /auth/admin.html (Caused by NewConnectionError("HTTPSConnection(host='10.0.0.254', port=443): Failed to establish a new connection: [Errno 113] No route to host"))
+2026-04-11T11:43:51+02:00 - QuickConfig: SNS_connection open failed with rc=1
+2026-04-11T11:43:51+02:00 - QuickConfig: apertura sessione fallita (rc=1). Eseguo diagnostica TCP e abortisco.
+2026-04-11T11:43:54+02:00 - QuickConfig: diagnostica TCP: connessione a 10.0.0.254:443 fallita: timed out
+2026-04-11T11:56:04+02:00 - QuickConfig: file .na risolto per il restore: '/home/striker/Documents/SCA_0_3_0/DefaultConfig/Base.na'.
+2026-04-11T11:56:11+02:00 - QuickConfig: DEFAULT_SNS_PASSWORD aggiornata dall'utente.
+2026-04-11T11:56:47+02:00 - Opened session 1 to 10.0.0.254:443 (session_number=YVRvOUuy)
+2026-04-11T11:56:47+02:00 - QuickConfig: SNS_connection open returned code 0 (sessione aperta).
+2026-04-11T11:56:47+02:00 - QuickConfig: session enumeration attempt 1: found 1 unique sessions.
+2026-04-11T11:56:47+02:00 - QuickConfig: sessione selezionata: YVRvOUuy (impostata SNS_SELECTED_SESSION).
+2026-04-11T11:56:47+02:00 - QuickConfig: avvio raccolta informazioni di rete (digita 'quit' per uscire).
+2026-04-11T11:57:17+02:00 - QuickConfig: valori inseriti -> LAN: 192.168.1.1/24, WAN: 192.168.2.1/24, FW_GTW: 192.168.2.2/24.
+2026-04-11T11:57:17+02:00 - QuickConfig: WAN e Firewall gateway sono nella stessa subnet.
+2026-04-11T11:57:17+02:00 - QuickConfig: validazione indirizzi completata con successo.
+2026-04-11T11:57:17+02:00 - QuickConfig: lancio snscli per restore: ['snscli', '--host', '10.0.0.254', '--port', '443', '--user', 'admin', '--password', 'Unaseriadavvero25!', '--no-sslverifypeer', '--no-sslverifyhost']
+2026-04-11T11:57:17+02:00 - snscli stdout: [36mINFO    [0m Connecting to 10.0.0.254 on port 443 with user admin[0m
+> 200 code=00700302 msg="Maximum user reached in all your accessible level"[0m
+> 205 code=00100a00 msg="Not enough privilege"[0m
+> 205 code=00100a00 msg="Not enough privilege"[0m
+> [36mINFO    [0m Disconnected from 10.0.0.254[0m
+
+2026-04-11T11:57:17+02:00 - snscli stderr: 
+2026-04-11T11:57:17+02:00 - QuickConfig: restore via snscli completato con successo.
+2026-04-11T11:57:17+02:00 - QuickConfig: restore completato con successo per 'Base'.
+2026-04-11T11:57:17+02:00 - QuickConfig: SNS_SELECTED_SESSION rimossa dall'ambiente.
+2026-04-11T11:57:57+02:00 - QuickConfig: file .na risolto per il restore: '/home/striker/Documents/SCA_0_3_0/DefaultConfig/Base.na'.
+2026-04-11T11:58:00+02:00 - Opened session 2 to 10.0.0.254:443 (session_number=hAa1e1eB)
+2026-04-11T11:58:00+02:00 - QuickConfig: SNS_connection open returned code 0 (sessione aperta).
+2026-04-11T11:58:00+02:00 - QuickConfig: session enumeration attempt 1: found 2 unique sessions.
+2026-04-11T11:58:00+02:00 - QuickConfig: session enumeration attempt 2: found 2 unique sessions.
+2026-04-11T11:58:00+02:00 - QuickConfig: session enumeration attempt 3: found 2 unique sessions.
+2026-04-11T11:58:00+02:00 - QuickConfig: session enumeration attempt 4: found 2 unique sessions.
+2026-04-11T11:58:01+02:00 - QuickConfig: session enumeration attempt 5: found 2 unique sessions.
+2026-04-11T11:58:01+02:00 - QuickConfig: session enumeration attempt 6: found 2 unique sessions.
+2026-04-11T11:58:01+02:00 - QuickConfig: 2 sessioni attive trovate dopo retry; abort per requisito (procedere solo con una).
+2026-04-11T11:58:01+02:00 - QuickConfig: condizione sessione non soddisfatta dopo open; non chiudo la sessione aperta. Abort.
+2026-04-11T11:58:12+02:00 - QuickConfig: file .na risolto per il restore: '/home/striker/Documents/SCA_0_3_0/DefaultConfig/Base.na'.
+2026-04-11T11:58:20+02:00 - QuickConfig: DEFAULT_SNS_PASSWORD aggiornata dall'utente.
+2026-04-11T11:58:20+02:00 - Error opening SSLClient to 10.0.0.254:443 - Authentication failed
+2026-04-11T11:58:20+02:00 - QuickConfig: SNS_connection open failed with rc=1
+2026-04-11T11:58:20+02:00 - QuickConfig: apertura sessione fallita (rc=1). Eseguo diagnostica TCP e abortisco.
+2026-04-11T11:58:20+02:00 - QuickConfig: diagnostica TCP: connessione a 10.0.0.254:443 OK.
+2026-04-11T11:58:28+02:00 - QuickConfig: file .na risolto per il restore: '/home/striker/Documents/SCA_0_3_0/DefaultConfig/Base.na'.
+2026-04-11T11:58:35+02:00 - QuickConfig: DEFAULT_SNS_PASSWORD aggiornata dall'utente.
+2026-04-11T11:58:35+02:00 - Error opening SSLClient to 10.0.0.254:443 - Authentication failed
+2026-04-11T11:58:35+02:00 - QuickConfig: SNS_connection open failed with rc=1
+2026-04-11T11:58:35+02:00 - QuickConfig: apertura sessione fallita (rc=1). Eseguo diagnostica TCP e abortisco.
+2026-04-11T11:58:35+02:00 - QuickConfig: diagnostica TCP: connessione a 10.0.0.254:443 OK.
+2026-04-11T11:58:49+02:00 - QuickConfig: file .na risolto per il restore: '/home/striker/Documents/SCA_0_3_0/DefaultConfig/Base.na'.
+2026-04-11T11:58:52+02:00 - Error opening SSLClient to 10.0.0.254:443 - Authentication failed
+2026-04-11T11:58:52+02:00 - QuickConfig: SNS_connection open failed with rc=1
+2026-04-11T11:58:52+02:00 - QuickConfig: apertura sessione fallita (rc=1). Eseguo diagnostica TCP e abortisco.
+2026-04-11T11:58:52+02:00 - QuickConfig: diagnostica TCP: connessione a 10.0.0.254:443 OK.
+2026-04-11T11:59:33+02:00 - QuickConfig: file .na risolto per il restore: '/home/striker/Documents/SCA_0_3_0/DefaultConfig/Base.na'.
+2026-04-11T11:59:45+02:00 - QuickConfig: DEFAULT_SNS_PASSWORD aggiornata dall'utente.
+2026-04-11T11:59:45+02:00 - Error opening SSLClient to 10.0.0.254:443 - Brut force detected, try again after 60 seconds.
+2026-04-11T11:59:45+02:00 - QuickConfig: SNS_connection open failed with rc=1
+2026-04-11T11:59:45+02:00 - QuickConfig: apertura sessione fallita (rc=1). Eseguo diagnostica TCP e abortisco.
+2026-04-11T11:59:45+02:00 - QuickConfig: diagnostica TCP: connessione a 10.0.0.254:443 OK.
+2026-04-11T12:02:49+02:00 - QuickConfig: file .na risolto per il restore: '/home/striker/Documents/SCA_0_3_0/DefaultConfig/Base.na'.
+2026-04-11T12:03:00+02:00 - QuickConfig: DEFAULT_SNS_PASSWORD aggiornata dall'utente.
+2026-04-11T12:03:00+02:00 - Opened session 1 to 10.0.0.254:443 (session_number=rf0mUgNZ)
+2026-04-11T12:03:00+02:00 - QuickConfig: SNS_connection open returned code 0 (sessione aperta).
+2026-04-11T12:03:00+02:00 - QuickConfig: session enumeration attempt 1: found 1 unique sessions.
+2026-04-11T12:03:00+02:00 - QuickConfig: sessione selezionata: rf0mUgNZ (impostata SNS_SELECTED_SESSION).
+2026-04-11T12:03:00+02:00 - QuickConfig: avvio raccolta informazioni di rete (digita 'quit' per uscire).
+2026-04-11T12:03:21+02:00 - QuickConfig: valori inseriti -> LAN: 192.168.1.1/24, WAN: 192.168.2.1/24, FW_GTW: 192.168.2.2/24.
+2026-04-11T12:03:21+02:00 - QuickConfig: WAN e Firewall gateway sono nella stessa subnet.
+2026-04-11T12:03:21+02:00 - QuickConfig: validazione indirizzi completata con successo.
+2026-04-11T12:03:21+02:00 - QuickConfig: lancio snscli per restore: ['snscli', '--host', '10.0.0.254', '--port', '443', '--user', 'admin', '--password', 'Unaseriadavvero25!', '--no-sslverifypeer', '--no-sslverifyhost']
+2026-04-11T12:03:21+02:00 - snscli stdout: [36mINFO    [0m Connecting to 10.0.0.254 on port 443 with user admin[0m
+> 200 code=00700302 msg="Maximum user reached in all your accessible level"[0m
+> 205 code=00100a00 msg="Not enough privilege"[0m
+> 205 code=00100a00 msg="Not enough privilege"[0m
+> [36mINFO    [0m Disconnected from 10.0.0.254[0m
+
+2026-04-11T12:03:21+02:00 - snscli stderr: 
+2026-04-11T12:03:21+02:00 - QuickConfig: restore via snscli completato con successo.
+2026-04-11T12:03:21+02:00 - QuickConfig: restore completato con successo per 'Base'.
+2026-04-11T12:03:21+02:00 - QuickConfig: SNS_SELECTED_SESSION rimossa dall'ambiente.
+2026-04-11T12:11:43+02:00 - QuickConfig: file .na risolto per il restore: '/home/striker/Documents/SCA_0_3_0/DefaultConfig/Base.na'.
+2026-04-11T12:11:54+02:00 - QuickConfig: password di test aggiornata dall'utente.
+2026-04-11T12:11:54+02:00 - QuickConfig: eseguo test di connessione SNS...
+2026-04-11T12:11:54+02:00 - Opened session 1 to 10.0.0.254:443 (session_number=EGaceTMP)
+2026-04-11T12:11:54+02:00 - QuickConfig: test connessione riuscito. Chiudo la sessione di test.
+2026-04-11T12:11:54+02:00 - QuickConfig: errore durante la chiusura della sessione di test: SNS_connection() missing 4 required positional arguments: 'ip', 'port', 'username', and 'password'
+2026-04-11T12:11:54+02:00 - QuickConfig: sessioni attive trovate dopo il test. Abort.
+2026-04-11T12:29:30+02:00 - QuickConfig: file .na risolto per il restore: '/home/striker/Documents/SCA_0_3_0/DefaultConfig/Base.na'.
+2026-04-11T12:29:38+02:00 - QuickConfig: password di test aggiornata dall'utente.
+2026-04-11T12:29:38+02:00 - QuickConfig: eseguo test di connessione SNS...
+2026-04-11T12:29:38+02:00 - Opened session 1 to 10.0.0.254:443 (session_number=IHmih2nv)
+2026-04-11T12:29:38+02:00 - QuickConfig: test connessione riuscito. Chiudo la sessione di test.
+2026-04-11T12:29:38+02:00 - QuickConfig: sessioni attive trovate in memory_helper dopo il test. Abort.
+2026-04-11T12:30:10+02:00 - QuickConfig: file .na risolto per il restore: '/home/striker/Documents/SCA_0_3_0/DefaultConfig/Base.na'.
+2026-04-11T12:30:17+02:00 - QuickConfig: password di test aggiornata dall'utente.
+2026-04-11T12:30:17+02:00 - QuickConfig: eseguo test di connessione SNS...
+2026-04-11T12:30:17+02:00 - Opened session 1 to 10.0.0.254:443 (session_number=FOxEEMTs)
+2026-04-11T12:30:17+02:00 - QuickConfig: test connessione riuscito. Chiudo la sessione di test.
+2026-04-11T12:30:17+02:00 - QuickConfig: sessioni attive trovate in memory_helper dopo il test. Abort.
+2026-04-11T12:33:37+02:00 - QuickConfig: file .na risolto per il restore: '/home/striker/Documents/SCA_0_3_0/DefaultConfig/Base.na'.
+2026-04-11T12:33:47+02:00 - QuickConfig: password di test aggiornata dall'utente.
+2026-04-11T12:33:47+02:00 - QuickConfig: eseguo test di connessione SNS...
+2026-04-11T12:33:47+02:00 - Opened session 1 to 10.0.0.254:443 (session_number=CxoDZTcv)
+2026-04-11T12:33:47+02:00 - QuickConfig: test connessione riuscito. Chiudo la sessione di test.
+2026-04-11T12:33:47+02:00 - Removed session_id=CxoDZTcv from memory_helper
+2026-04-11T12:33:47+02:00 - Error removing session_id=CxoDZTcv from SNS_conn.tmp: cannot import name '_remove_session_from_tmp' from 'UTIL.sns_utils' (/home/striker/Documents/SCA_0_3_0/UTIL/sns_utils.py)
+2026-04-11T12:33:47+02:00 - QuickConfig: nessuna sessione attiva in memory_helper dopo il test.
+2026-04-11T12:33:47+02:00 - QuickConfig: nessuna sessione attiva in memory_helper. Procedo con il wizard.
+2026-04-11T12:33:47+02:00 - QuickConfig: avvio raccolta informazioni di rete (digita 'quit' per uscire).
+2026-04-11T12:34:14+02:00 - QuickConfig: valori inseriti -> LAN: 192.168.1.1/24, WAN: 192.168.2.1/24, FW_GTW: 192.168.2.2/24.
+2026-04-11T12:34:14+02:00 - QuickConfig: WAN e Firewall gateway sono nella stessa subnet.
+2026-04-11T12:34:14+02:00 - QuickConfig: validazione indirizzi completata con successo.
+2026-04-11T12:34:14+02:00 - QuickConfig: apro la sessione SNS definitiva per il restore.
+2026-04-11T12:34:14+02:00 - Error opening SSLClient to 10.0.0.254:443 - Authentication failed
+2026-04-11T12:34:14+02:00 - QuickConfig: apertura sessione definitiva fallita (rc=1). Abort.
+2026-04-11T13:30:35+02:00 - QuickConfig: file .na risolto per il restore: '/home/striker/Documents/SCA_0_3_0/DefaultConfig/Base.na'.
+2026-04-11T13:30:35+02:00 - QuickConfig: nessuna sessione attiva. Procedo con il wizard.
+2026-04-11T13:30:35+02:00 - QuickConfig: avvio raccolta informazioni di rete (digita 'quit' per uscire).
+2026-04-11T13:30:58+02:00 - QuickConfig: valori inseriti -> LAN: 192.168.1.1/24, WAN: 192.168.2.1/24, FW_GTW: 192.168.2.2/24.
+2026-04-11T13:30:58+02:00 - QuickConfig: WAN e Firewall gateway sono nella stessa subnet.
+2026-04-11T13:30:58+02:00 - QuickConfig: validazione indirizzi completata con successo.
+2026-04-11T13:30:58+02:00 - QuickConfig: apro la sessione SNS definitiva per il restore.
+2026-04-11T13:30:58+02:00 - Error opening SSLClient to 10.0.0.254:443 - Authentication failed
+2026-04-11T13:30:58+02:00 - QuickConfig: apertura sessione definitiva fallita (rc=1). Abort.
+2026-04-11T13:31:29+02:00 - Opened session 1 to 10.0.0.254:443 (session_number=u8AiIGdf)
+2026-04-11T13:38:38+02:00 - QuickConfig: resolved .na file for restore: '/home/striker/Documents/SCA_0_3_0/DefaultConfig/Base.na'.
+2026-04-11T13:38:45+02:00 - QuickConfig: SNS password set (default used if empty).
+2026-04-11T13:38:45+02:00 - QuickConfig: no active sessions. Proceeding with wizard.
+2026-04-11T13:38:45+02:00 - QuickConfig: starting network information collection.
+2026-04-11T13:39:05+02:00 - QuickConfig: opening final SNS session for restore.
+2026-04-11T13:39:05+02:00 - Opened session 1 to 10.0.0.254:443 (session_number=qQkkIo4P)
+2026-04-11T13:39:05+02:00 - QuickConfig: selected session: qQkkIo4P
+2026-04-11T13:39:05+02:00 - QuickConfig: launching snscli for restore: ['snscli', '--host', '10.0.0.254', '--port', '443', '--user', 'admin', '--password', 'Unaseriadavvero25!', '--no-sslverifypeer', '--no-sslverifyhost']
+2026-04-11T13:39:06+02:00 - snscli stdout: [36mINFO    [0m Connecting to 10.0.0.254 on port 443 with user admin[0m
+> 200 code=00700302 msg="Maximum user reached in all your accessible level"[0m
+> 205 code=00100a00 msg="Not enough privilege"[0m
+> 205 code=00100a00 msg="Not enough privilege"[0m
+> [36mINFO    [0m Disconnected from 10.0.0.254[0m
+
+2026-04-11T13:39:06+02:00 - snscli stderr: 
+2026-04-11T13:39:06+02:00 - QuickConfig: restore completed successfully.
+2026-04-11T13:39:06+02:00 - QuickConfig: restore completed successfully for 'Base'.
+2026-04-11T13:43:56+02:00 - QuickConfig: resolved .na file for restore: '/home/striker/Documents/SCA_0_3_0/DefaultConfig/Base.na'.
+2026-04-11T13:44:03+02:00 - QuickConfig: SNS password set (default used if empty).
+2026-04-11T13:44:03+02:00 - QuickConfig: no active sessions. Proceeding with wizard.
+2026-04-11T13:44:03+02:00 - QuickConfig: starting network information collection.
+2026-04-11T13:44:21+02:00 - QuickConfig: starting restore via snscli (no SNS session opened by wizard).
+2026-04-11T13:44:21+02:00 - QuickConfig: launching snscli for restore: ['snscli', '--host', '10.0.0.254', '--port', '443', '--user', 'admin', '--password', 'Unaseriadavvero25!', '--no-sslverifypeer', '--no-sslverifyhost']
+2026-04-11T13:44:27+02:00 - snscli stdout: [36mINFO    [0m Connecting to 10.0.0.254 on port 443 with user admin[0m
+> 110 code=00700a00 msg="Session already have this level !"[0m
+> 104 code=02100a00 msg="Old version backup, reboot needed to upgrade it"[0m
+> [31mERROR   [0m Server disconnected[0m
+[36mINFO    [0m Disconnected from 10.0.0.254[0m
+
+2026-04-11T13:44:27+02:00 - snscli stderr: 
+2026-04-11T13:44:27+02:00 - QuickConfig: restore failed: snscli failed with code 1.
+2026-04-11T13:53:04+02:00 - Opened session 1 to 10.0.0.254:443 (session_number=Bzvney1O)
+2026-04-11T15:39:28+02:00 - QuickConfig: resolved .na file for restore: '/home/striker/Documents/SCA_0_3_0/DefaultConfig/Base.na'.
+2026-04-11T15:39:39+02:00 - QuickConfig: SNS password set (default used if empty).
+2026-04-11T15:39:39+02:00 - QuickConfig: no active sessions. Proceeding with wizard.
+2026-04-11T15:39:39+02:00 - QuickConfig: starting network information collection.
+2026-04-11T15:40:07+02:00 - QuickConfig: starting restore via snscli (no SNS session opened by wizard).
+2026-04-11T15:40:07+02:00 - QuickConfig: launching snscli for restore: ['snscli', '--host', '10.0.0.254', '--port', '443', '--user', 'admin', '--password', 'Unaseriadavvero25!', '--no-sslverifypeer', '--no-sslverifyhost']
+2026-04-11T15:41:08+02:00 - QuickConfig: resolved .na file for restore: '/home/striker/Documents/SCA_0_3_0/DefaultConfig/Base.na'.
+2026-04-11T15:41:14+02:00 - QuickConfig: SNS password set (default used if empty).
+2026-04-11T15:41:14+02:00 - QuickConfig: no active sessions. Proceeding with wizard.
+2026-04-11T15:41:14+02:00 - QuickConfig: starting network information collection.
+2026-04-11T15:41:37+02:00 - QuickConfig: starting restore via snscli (no SNS session opened by wizard).
+2026-04-11T15:41:37+02:00 - QuickConfig: launching snscli for restore: ['snscli', '--host', '10.0.0.254', '--port', '443', '--user', 'admin', '--password', 'Unaseriadavvero25!', '--no-sslverifypeer', '--no-sslverifyhost']
+2026-04-11T15:43:51+02:00 - snscli stdout: [36mINFO    [0m Connecting to 10.0.0.254 on port 443 with user admin[0m
+[31mERROR   [0m HTTPSConnectionPool(host='10.0.0.254', port=443): Max retries exceeded with url: /auth/admin.html (Caused by ConnectTimeoutError(<HTTPSConnection(host='10.0.0.254', port=443) at 0x7f6ada1138f0>, 'Connection to 10.0.0.254 timed out. (connect timeout=None)'))[0m
+
+2026-04-11T15:43:51+02:00 - snscli stderr: 
+2026-04-11T15:43:51+02:00 - QuickConfig: restore failed: snscli failed with code 1.
+2026-04-11T15:44:40+02:00 - Opened session 1 to 10.0.0.254:443 (session_number=9Xq95SUy)
+2026-04-11T15:45:20+02:00 - QuickConfig: resolved .na file for restore: '/home/striker/Documents/SCA_0_3_0/DefaultConfig/Base.na'.
+2026-04-11T15:45:28+02:00 - QuickConfig: SNS password set (default used if empty).
+2026-04-11T15:45:28+02:00 - QuickConfig: active sessions found in memory_helper. Abort.
+2026-04-11T15:45:43+02:00 - QuickConfig: resolved .na file for restore: '/home/striker/Documents/SCA_0_3_0/DefaultConfig/Base.na'.
+2026-04-11T15:45:49+02:00 - QuickConfig: SNS password set (default used if empty).
+2026-04-11T15:45:49+02:00 - QuickConfig: no active sessions. Proceeding with wizard.
+2026-04-11T15:45:49+02:00 - QuickConfig: starting network information collection.
+2026-04-11T15:46:14+02:00 - QuickConfig: starting restore via snscli (no SNS session opened by wizard).
+2026-04-11T15:46:14+02:00 - QuickConfig: launching snscli for restore: ['snscli', '--host', '10.0.0.254', '--port', '443', '--user', 'admin', '--password', 'Unaseriadavvero25!', '--no-sslverifypeer', '--no-sslverifyhost']
+2026-04-11T15:46:14+02:00 - snscli stdout: [36mINFO    [0m Connecting to 10.0.0.254 on port 443 with user admin[0m
+> 200 code=00700302 msg="Maximum user reached in all your accessible level"[0m
+> 205 code=00100a00 msg="Not enough privilege"[0m
+> 205 code=00100a00 msg="Not enough privilege"[0m
+> [36mINFO    [0m Disconnected from 10.0.0.254[0m
+
+2026-04-11T15:46:14+02:00 - snscli stderr: 
+2026-04-11T15:46:14+02:00 - QuickConfig: restore completed successfully.
+2026-04-11T15:46:14+02:00 - QuickConfig: restore completed successfully for 'Base'.
+2026-04-11T15:49:27+02:00 - QuickConfig: resolved .na file for restore: '/home/striker/Documents/SCA_0_3_0/DefaultConfig/Base.na'.
+2026-04-11T15:49:33+02:00 - QuickConfig: SNS password set (default used if empty).
+2026-04-11T15:49:33+02:00 - QuickConfig: no active sessions. Proceeding with wizard.
+2026-04-11T15:49:33+02:00 - QuickConfig: starting network information collection.
+2026-04-11T15:49:54+02:00 - QuickConfig: starting restore via snscli (no SNS session opened by wizard).
+2026-04-11T15:49:54+02:00 - QuickConfig: launching snscli for restore: ['snscli', '--host', '10.0.0.254', '--port', '443', '--user', 'admin', '--password', 'Unaseriadavvero25!', '--no-sslverifypeer', '--no-sslverifyhost']
+2026-04-11T15:50:00+02:00 - snscli stdout: [36mINFO    [0m Connecting to 10.0.0.254 on port 443 with user admin[0m
+> 110 code=00700a00 msg="Session already have this level !"[0m
+> 104 code=02100a00 msg="Old version backup, reboot needed to upgrade it"[0m
+> [31mERROR   [0m Server disconnected[0m
+[36mINFO    [0m Disconnected from 10.0.0.254[0m
+
+2026-04-11T15:50:00+02:00 - snscli stderr: 
+2026-04-11T15:50:00+02:00 - QuickConfig: restore failed: snscli failed with code 1.
