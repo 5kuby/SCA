@@ -24,5 +24,6 @@ install: venv
 	$(PIP) install --upgrade pip
 	$(PIP) install -r $(REQ)
 
-run:
-	$(PY) main.py
+run: venv
+	@echo "Running main.py with venv PATH"
+	PATH="$(VENV_DIR)/bin:$$PATH" $(PY) main.py
