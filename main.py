@@ -13,12 +13,8 @@ from UI.RuntimeMessages import messages_helper
 # Dispatcher for menus
 from UTIL.menu_helper import menu_caller
 
-# Optional memory helper initialization
-try:
-    from UTIL import memory_helper
-except Exception:
-    memory_helper = None
-
+# memory helper initialization
+from UTIL import memory_helper
 
 TMP_DIR_NAME = "tmp"
 SNS_TMP_NAME = "SNS_conn.tmp"
